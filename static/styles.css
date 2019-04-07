@@ -1,0 +1,119 @@
+/* Humanitarian warning: here be dragons */
+
+@font-face {
+  font-family: 'Good Times';
+  src: url('fonts/good_times/good_times_rg-webfont.eot');
+  src: url('fonts/good_times/good_times_rg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/good_times/good_times_rg-webfont.woff2') format('woff2'),
+       url('fonts/good_times/good_times_rg-webfont.woff') format('woff'),
+       url('fonts/good_times/good_times_rg-webfont.ttf') format('truetype'),
+       url('fonts/good_times/good_times_rg-webfont.svg#good_timesregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #5addf4;
+  background-image: url('/img/grid.svg');
+  background-color: black;
+}
+
+p {
+  font-size: 22px;
+}
+
+.no-copy {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container {
+  text-align: center;
+  width: 720px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 128px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Good Times', cursive;
+  margin: 0 auto;
+  text-align: center;
+
+  margin-top: 50px;
+  margin-bottom: 40px;
+  letter-spacing: 0px;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 1),
+               0 0 10px rgba(255, 255, 255, 0.5),
+               0 0 15px rgba(255, 255, 255, 0.5),
+               0 0 20px rgba(34,141,255, 0.5),
+               0 0 35px rgba(34,141,255, 0.5),
+               0 0 40px rgba(34,141,255, 0.5),
+               0 0 50px rgba(34,141,255, 0.5),
+               0 0 75px rgba(34,141,255, 0.5);
+}
+
+.description {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.subtext {
+  font-size: 20px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.subtext.hidden {
+  color: black;
+}
+
+.icon {
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.share-links {
+  padding-bottom: 2em;
+}
+
+/* This is done to avoid !important */
+
+.fb-share-button {
+  vertical-align: text-bottom;
+}
+
+.twitter-share-button[style] {
+  vertical-align: text-bottom;
+}
+
+code {
+  text-shadow: #DF740C 0 -1px 35px;
+  color: #DF740C;
+  border: rgba(223, 116, 12, 0.25) 1px solid;
+  background: none;
+  font-family: monospace;
+}
+
+code::selection {
+  background: #DF740C;
+  color: black;
+}
+
+code:hover {
+  text-shadow: #DF740C 5 10px 55px;
+  transition-duration: 1s;
+  border: rgba(223, 116, 12, 25) 1px solid;
+}
+
+.gameplay-image {
+  margin-top: 2em;
+  margin-bottom: 3em;
+  box-shadow: rgba(90, 221, 244, 0.35) 0px 0px 72px;
+}
